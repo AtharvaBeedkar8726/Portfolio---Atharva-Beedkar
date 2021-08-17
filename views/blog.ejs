@@ -1,0 +1,23 @@
+<%- include("partials/header") -%>
+
+<h1 style="width: 50%;">Is programming easy or hard?</h1>
+<h4>Actually, programming is neither easy nor hard it is understandable for everyone who can understand some code logics.
+  Never go on myths like programming is too easy or it is too hard .It is actually possible to do programming if you take some time and understand the logic.
+</h4>
+
+<h1>How life would be without electronics?</h1>
+<h4>Electronics is a undividable part of human lifestyle lately.Electronics include a wide range of products,
+  which we use daily,like mobiles,T.V.s, computers, laptops, headphones,
+  Wi-Fi Routers,which are vital part of our lives in this era.
+</h4>
+
+<br>
+
+<% posts.forEach(function(post) { %>
+  <h1><%= post.title %></h1>
+  <h4><%= post.content %></h4>
+<% }); %>
+
+<h6 class="fixed-bottom text-align-center">If you want to compose you post then click <a href="/compose">here</a></p>
+
+<%- include("partials/footer") -%>

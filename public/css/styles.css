@@ -1,0 +1,83 @@
+html , .bg-nav{
+  background: -webkit-linear-gradient(65deg, #A683E3 50%, #E4E9FD 50%);
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  text-align: center;
+  color: white;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.div1 .home-h1{
+  font-size: 10rem;
+}
+
+.div1 .home-h2 {
+  font-size: 5rem;
+  padding: 0;
+  margin: 0;
+}
+
+.div1 {
+  position: relative;
+  top: 100px;
+  padding-right: 3rem;
+}
+
+.nav-font-size a {
+  font-size: 1.8rem;
+}
+
+.home-h1 {
+  animation: type 4s steps(6) 4 ;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 4px solid black;
+  width: 6ch;
+  text-align: center;
+  margin: 0 auto;
+}
+
+@keyframes type {
+  0% {
+    width: 0ch;
+  }
+  100% {
+    width: 6ch;
+  }
+}
+
+.img-1 {
+  position: relative;
+  left: 660px;
+  bottom: 300px;
+}
+
+.img-2 {
+  position: relative;
+  left: 650px;
+  bottom: 300px;
+}
+
+.img-3 {
+  position: relative;
+  left: 400px;
+  bottom: 115px;
+}
+
+.navbar-white {
+  color: #ffffff;
+}
+
+
+/* css properties to define following font-families */
+/* font-family: 'Monda', sans-serif;
+font-family: 'MonteCarlo', cursive;
+font-family: 'Montserrat', sans-serif; */
