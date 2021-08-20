@@ -40,6 +40,6 @@ app.post("/compose", function(req, res) {
   res.redirect("/blog");
 });
 
-app.listen(process.env.PORT || 3000, function() {
+app.listen(process.env.PORT, function() {
   console.log("Server has started on port 3000.");
 });
